@@ -1,0 +1,43 @@
+.body {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Nunito;
+}
+
+.play {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.shop {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(173, 124, 132);
+  color: white;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 400px;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+}

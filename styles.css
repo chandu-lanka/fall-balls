@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+#game {
+  width: 400px;
+  height: 500px;
+  border: 1px solid white;
+  margin: auto;
+  overflow: hidden;
+}
+#character {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top: 400px;
+  left: 190px;
+  z-index: 1000000;
+}
+.block {
+  width: 400px;
+  height: 20px;
+  background-color: white;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
+
+.play {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.shop {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(173, 124, 132);
+  color: white;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pause {
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: purple;
+}
+
+.score {
+  color: white;
+}
+
+.hole {
+  width: 40px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
